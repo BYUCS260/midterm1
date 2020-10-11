@@ -5,7 +5,7 @@ let b = a.filter(number => {
 console.log(b);
 let c = a.reduce((total, number) => {
   return (total + number)
-}, 10);
+});
 console.log(c);
 let e = a.map(number => {
   return (number - 1)
